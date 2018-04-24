@@ -1,3 +1,6 @@
+require_relative './spec_helper.rb'
+require_relative '../fizzbuzz.rb'
+
 def fizzbuzz(number)
 
   if number%3 == 0
@@ -9,6 +12,6 @@ def fizzbuzz(number)
   else
     return nil
   end
-    
+
 
 end
